@@ -3,6 +3,8 @@ package BasicJava;
 import java.util.Scanner;
 
 public class T_62_Palindrome_Number {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         System.out.print("Enter a Number: ");

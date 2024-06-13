@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class I_Palindrome {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         int Sum = 0, CPY, Number = Input.nextInt();

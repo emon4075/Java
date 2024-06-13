@@ -3,6 +3,7 @@ package BasicJava;
 import java.util.Scanner;
 
 public class T_29_Assignment_07 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         System.out.println("Do You Love Java: ");
         Scanner charInput = new Scanner(System.in);

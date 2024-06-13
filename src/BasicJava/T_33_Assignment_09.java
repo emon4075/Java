@@ -3,6 +3,7 @@ package BasicJava;
 import java.util.Scanner;
 
 public class T_33_Assignment_09 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         System.out.print("Enter Your Language: ");

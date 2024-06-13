@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class S_Sum_of_Consecutive_Odd_Numbers {
 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner Input = new Scanner(System.in);
         int T = Input.nextInt();
         while (T-- != 0) {

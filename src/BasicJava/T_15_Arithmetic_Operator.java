@@ -3,6 +3,7 @@ package BasicJava;
 import java.util.Scanner;
 
 public class T_15_Arithmetic_Operator {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         System.out.print("Enter an Integer: ");

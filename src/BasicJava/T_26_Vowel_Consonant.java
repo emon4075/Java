@@ -3,6 +3,7 @@ package BasicJava;
 import java.util.Scanner;
 
 public class T_26_Vowel_Consonant {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner charInput = new Scanner(System.in);
         char C;
