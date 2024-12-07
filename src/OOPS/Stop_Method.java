@@ -17,6 +17,7 @@ class STP2 extends Thread {
 }
 
 public class Stop_Method {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         STP1 O1 = new STP1();
         STP2 O2 = new STP2();

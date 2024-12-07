@@ -10,6 +10,7 @@ class SR extends Thread {
 }
 
 public class Suspend_Resume_Method {
+    @SuppressWarnings("removal")
     public static void main(String[] args) {
         try {
             SR S1 = new SR();
