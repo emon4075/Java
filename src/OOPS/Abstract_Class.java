@@ -9,7 +9,6 @@ class Tiger extends Animal {
     public void Eat() {
         System.out.println("Tiger is Eating");
     }
-
     void M1() {
         System.out.println("Meow");
     }
