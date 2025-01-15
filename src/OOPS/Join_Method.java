@@ -21,9 +21,11 @@ public class Join_Method {
         J1.setName("Thread 1");
         J2.setName("Thread 2");
         J3.setName("Thread 3");
+
         J2.start();
         J3.start();
-        J3.join(); 
         J1.start();
+
+        J3.join();
     }
 }

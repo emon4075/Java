@@ -23,6 +23,11 @@ public class Suspend_Resume_Method {
             S2.start();
             S2.suspend();
             S3.start();
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             S2.resume();
         } catch (UnsupportedOperationException e) {
             System.out.println("Exception Handled");
